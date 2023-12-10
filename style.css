@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.admin-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-menu h1 {
+    margin-bottom: 20px;
+}
+
+.navi {
+    list-style: none;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #333;
+    margin-top: 0;
+}
+
+.navi li {
+    width: 250px;
+    float: left;
+
+}
+
+
+.navi li ul {
+    display: none;
+
+}
+
+.navi a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    line-height: 20pt;
+    font-weight: bold;
+    background-color: #333;
+}
+
+.navi a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.navi li:hover ul {
+    display: block;
+}
+
+.pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.container {
+    background-color: bisque;
+    width: fit-content;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 20px;
+}
+
+.container h3{
+    text-align: center;
+}
+
+.container button{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+}
+
+.container button:hover{
+    background-color: greenyellow;
+    color: white;
+}
+
+.container2 {
+    background-color: bisque;
+    width: fit-content;
+    padding: 10px;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    border-radius: 20px;
+}
+
+.container2 h3{
+    text-align: center;
+}
+
+.container2 button{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+}
+
+.container2 button:hover{
+    background-color: greenyellow;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.update-form {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25%;
+    border: 2px solid black;
+    padding: 10px;
+    width: 50%;
+    gap: 10px;
+}
+
+.button {
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.view{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.viewemployee{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
